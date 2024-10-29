@@ -106,7 +106,7 @@ function monitorChatForImageCommand() {
                 const characterName = mutation.addedNodes[0].getAttribute('data-character'); // 発言者のキャラクター名を取得
 
                 // 発言キャラクター名が存在し、コマンドが正しい場合に処理を続行
-                if (characterName && newMessage.startsWith("/image")) {
+                if (characterName && newMessage.startsWith("!image")) {
                     const command = newMessage.split(" ")[1];
 
                     if (imageMappings[command]) {
