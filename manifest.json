@@ -1,6 +1,12 @@
 {
-  "name": "Image Keyword Extension",
-  "version": "1.2.0",
+  "name": "Custom-Image-Extension",
+  "version": "1.0.0",
   "description": "Allows users to register keywords for images in a floating panel.",
-  "permissions": []
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "main.js",
+    "css": "",
+    "author": "Yaki-Mikan",
+    "auto_update": false
 }
